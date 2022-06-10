@@ -1,0 +1,86 @@
+body {
+	background-color: black;
+}
+
+.gallery {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	width: 788px;
+	color: #fff;
+}
+
+.item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 136px;
+	transition: 1s ease-in-out;
+}
+
+.item:hover {
+	transform: rotateY(180deg);
+}
+
+.gallery__moodboard {
+	background-color: #005DE9;
+	width: 425px;
+}
+
+.gallery__heading {
+	font-size: 72px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.gallery__arrow {
+	background-color: #FAA9CB;
+	width: 195px;
+}
+
+.gallery__deco-1 {
+	background-color: #005CE7;
+	width: 136px;
+}
+
+.gallery__kit {
+	background-color: #FF5B2B;
+	width: 136px;
+}
+
+.kit__heading {
+	font-size: 72px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.gallery__deco-2 {
+	background-color: #008C26;
+	width: 195px;
+}
+
+.gallery__star {
+	background-color: #FF5B2B;
+	width: 142px;
+}
+
+.gallery__deco-3 {
+	background-color: #FAA9CB;
+	width: 266px;
+}
+
+.gallery__pen {
+	background-color: #FAA9CB;
+	width: 268px;
+}
+
+.gallery__deco-4 {
+	background-color: #FFAE1B;
+	width: 220px;
+}
+
+.gallery__ballon {
+	background-color: #008C26;
+	width: 268px;
+}
